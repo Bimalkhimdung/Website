@@ -10,8 +10,9 @@ pipeline
            
         }
         stage('Build'){
-        steps{
-            echo 'Building Code'
+            steps{
+            echo 'Building Code...'
+          }
         }
         
 
@@ -23,4 +24,3 @@ pipeline
         }
        }
     }
-}
